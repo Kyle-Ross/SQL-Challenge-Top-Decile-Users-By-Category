@@ -1,2 +1,25 @@
-# SQL-Challenge-Top-Decile-Users-By-Category
- For an event table (called design_exported ) containing the following columns, write an SQL query to determine the decile (1 is the lowest, 10 the highest) of each user by event count and the category of the user’s last exported design.
+# SQL Challenge Top Decile Users By Category
+
+I made this query as a solution to a Data Analyst interview challenge for a role at a large Australia tech company. I ended up accepting a different role, but it was a great challenge a good example of SQL skills. I was able to successfully employ CTEs, Window Functions, Timestamps, Joins and create deciles by groupings.
+
+## The Challenge
+
+### Scenario
+One of our growth marketers would like to have a message conditionally inserted into a regular bulk email. The idea is to include a premium subscription upgrade CTA at the top of an email subject to the following criteria:
+•	Out of the users who have exported a design in the previous 7 days, the user is in the top decile by number of exports in that period.
+The marketer also wants to use the category (birthday invitation, business card, etc) of the design that the user last exported.
+The email marketer needs your help to identify the users in that top decile and the category of the last exported design.
+
+### Task
+For an event table (called design_exported ) containing the following columns, write an SQL query to determine the decile (1 is the lowest, 10 the highest) of each user by event count and the category of the user’s last exported design.
+-	event_id
+    -	unique identifier of each event (duplicates rows may exist in design_exported )
+-	timestamp
+    -	unix epoch time of the event (seconds)
+-	user_id
+-	design_category
+    -	English-language text label for the category of the exported design
+    -	example values: ‘birthday invitation’, ‘business card’, ‘festival poster’
+
+Please ensure that your SQL is roughly compatible with a PostgreSQL 9.5 database. We don't mind if there are minor syntax issues so you shouldn't need to install the database to test your query.
+
