@@ -25,4 +25,10 @@ Please ensure that your SQL is roughly compatible with a PostgreSQL 9.5 database
 
 ### My Solution
 
+Includes inline comments explaining the sections of the query.
+
 [![top decile sql challenge](https://img.shields.io/badge/PostgreSQL_Query-31648c?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/Kyle-Ross/SQL-Challenge-Top-Decile-Users-By-Category/blob/9c2ba06c873c425c039cdb34fbf7947853784838/top_decile_users_by_category.sql)
+
+This was tested on sample data which I created.
+
+[![Sample Data](https://img.shields.io/badge/Sample_Data-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)](https://github.com/Kyle-Ross/SQL-Challenge-Top-Decile-Users-By-Category/blob/515c51219fa74045245c0b639c01b37f05179cf8/Sample%20Data.csv)
