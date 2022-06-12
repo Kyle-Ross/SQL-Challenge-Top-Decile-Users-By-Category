@@ -1,6 +1,6 @@
-# SQL Challenge Top Decile Users By Category
+# SQL Challenge: Top Decile Users By Category
 
-I made this query as a solution to a Data Analyst interview challenge for a role at a large Australia tech company. I ended up accepting a different role, but it was a great challenge a good example of SQL skills. I was able to successfully employ CTEs, Window Functions, Timestamps, Joins and create deciles by groupings.
+I made this query as a solution to a Data Analyst interview challenge for a role at a large Australian tech company. I ended up accepting a different role, but it was a great challenge and a good example of my SQL skills. I was able to successfully employ CTEs, Window Functions, Timestamps, Joins and create deciles by groupings.
 
 ## The Challenge
 
@@ -23,3 +23,6 @@ For an event table (called design_exported ) containing the following columns, w
 
 Please ensure that your SQL is roughly compatible with a PostgreSQL 9.5 database. We don't mind if there are minor syntax issues so you shouldn't need to install the database to test your query.
 
+### My Solution
+
+[![top decile sql challenge](https://img.shields.io/badge/PostgreSQL_Query-31648c?style=for-the-badge&logo=PostgreSQL&logoColor=white)](https://github.com/Kyle-Ross/SQL-Challenge-Top-Decile-Users-By-Category/blob/9c2ba06c873c425c039cdb34fbf7947853784838/top_decile_users_by_category.sql)
